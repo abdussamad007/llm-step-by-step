@@ -39,4 +39,11 @@ BERT has inspired many derivatives optimized for size, language, or domain, such
 **Impact**
 BERT redefined state-of-the-art benchmarks such as GLUE and SQuAD, shifting the NLP field toward transformer-based pretraining. Its open-source release catalyzed a surge of research and industrial adoption, influencing later large-scale language models including GPT and T5.
 
-
+### BERT Training Details
+* Data: Wikipedia (2.5B words) + BookCorpus (800M words)
+* Batch Size: 131,072 words (1024 sequences * 128 length or 256 sequences * 512 length)
+* Training Time: 1M steps (~40 epochs)
+* Optimizer: AdamW, 1e-4 learning rate, linear decay
+* BERT-Base: 12-layer, 768-hidden, 12-head
+* BERT-Large: 24-layer, 1024-hidden, 16-head
+* Trained on 4x4 or 8x8 TPU slice for 4 days
