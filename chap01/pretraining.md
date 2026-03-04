@@ -21,10 +21,10 @@ There are various reasons why BERT is chosen as the 1st stpe to pretrain a large
 * Paper: “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding” (2018)
 ```
 Common configurations of BERT as - 
-| Model      | Layers | Hidden Size | Heads |
-| ---------- | ------ | ----------- | ----- |
-| BERT Base  | 12     | 768         | 12    |
-| BERT Large | 24     | 1024        | 16    |
+| Model      | Layers | Hidden Size | Attention Heads | Parameters |
+| ---------- | ------ | ----------- | --------------- | -----------|
+| BERT Base  | 12     | 768         | 12              | ~110M      |
+| BERT Large | 24     | 1024        | 16              |  ~340M     |
 
 ```
 
