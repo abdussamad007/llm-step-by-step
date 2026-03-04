@@ -36,7 +36,3 @@ BERT has inspired many derivatives optimized for size, language, or domain, such
 BERT redefined state-of-the-art benchmarks such as GLUE and SQuAD, shifting the NLP field toward transformer-based pretraining. Its open-source release catalyzed a surge of research and industrial adoption, influencing later large-scale language models including GPT and T5.
 
 
-
-
-Next Sentence Prediction
-
