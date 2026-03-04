@@ -1,4 +1,8 @@
 For engineers starting with **pre-training or adapting a base model**, the usual first choices are models that are **well-documented, open, and widely supported.** These are commonly used:
+Below are the sequence where AI engineers start deep diving - 
+1️⃣ BERT -> 2️⃣ RoBERTa -> 3️⃣ GPT-2 -> 4️⃣ T5 -> 5️⃣ LLaMA
+
+This sequence teaches almost every major LLM training paradigm.
 
 ### 1. BERT [Original Paper](https://arxiv.org/abs/1810.04805)
 
